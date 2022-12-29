@@ -1,0 +1,27 @@
+
+function frequent(arr,n){
+
+    arr.sort();
+    
+    let max_count = 1;
+    let curr_count = 1;
+    let res = arr[0];
+    
+    for(let i=0;i<n;i++){
+        if(arr[i] == arr[i-1])
+            curr_count++;
+        else
+            curr_count = 1;
+        
+        if(curr_count > max_count){
+            max_count = curr_count;
+            res = arr[i-1];
+        }
+    }
+    return res;
+    
+}
+
+const arr = [2,6,8,3,5,7,"a","b","e","u","y","z", "i","o",8,8];
+let n = arr.length;
+console.log(frequent(arr,n));

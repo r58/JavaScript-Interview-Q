@@ -1,0 +1,5 @@
+const arr = [1,2,2,3,3,4,5];
+    function remove(arr){
+        return [...new Set(arr)];
+    }
+    console.log(remove(arr));

@@ -1,0 +1,85 @@
+//let a = 10;
+//console.log(a);
+//let a = a+10;
+//console.log(a);...//to print this without errorr what changes shud be done here
+
+
+function foo() {
+
+let x = y = 0;
+
+x++;   //1
+
+y++;   //1
+
+//return x;
+return y;
+
+}
+
+console.log(foo(), typeof x, typeof y);/////what will be the output??
+
+//////////////////////////////////////////////////////////////////////
+
+//function foo() {
+
+//return
+
+//{
+
+//message: "Hello Rohit...!!!!"
+
+//};
+
+//}
+
+//console.log(foo)...////what is output of this code.
+
+1)The array is given to print 1 in 1 sec 2 in 2 sec...so on and print 1 2 3 4 as o/p so how to achive this using promises??
+
+
+const arr = [1,2,3,4];
+setTimeout(function (){
+    console.log(arr);
+    
+},2000);
+
+console.log(arr[0]);
+console.log(arr[1]);
+console.log(arr[2]);
+console.log(arr[3]);
+
+..................................................................................................................................20-10-2022------------------------------------------------------
+
+console.log(isNaN('1'));      //false
+console.log(isNaN(undefined));   //true
+
+
+"use strict"; 
+x = 23; 
+console.log(x) 
+var x; 
+
+output = 23;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

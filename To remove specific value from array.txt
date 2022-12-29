@@ -1,0 +1,14 @@
+TO REMOVE ONLY 2 FROM GIVEN FOLLOWING ARRAY
+
+
+
+
+let arr = [1,2,3,2,4,2];
+function remove(arr,value){
+    
+      return arr.filter(function(b){
+       return b != value;
+      });
+}
+var result = remove(arr,2);
+console.log(result);
